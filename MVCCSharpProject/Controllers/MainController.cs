@@ -36,6 +36,12 @@ namespace MVCCSharpProject.Controllers
             return View(customers);
         }
 
+public ActionResult TestAction(){
+return View();
+}
+
+
+
 
         public ActionResult CustomersReport(string searchTerm)
         {
