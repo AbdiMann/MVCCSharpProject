@@ -46,7 +46,6 @@ namespace MVCCSharpProject.Controllers
 
 
 
-  // Added these two actions for update operation
         public ActionResult Update(string ID)
         {
             var customerInfo = _repository.GetCustomerForEdit(ID);

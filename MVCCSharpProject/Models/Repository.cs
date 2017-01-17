@@ -32,15 +32,16 @@ namespace MVCCSharpProject.Models
         }
 
 
+
         // ADDED THIS CODE TO GET THE CUSTOMER SELECTED IN THE LIST AND WE WILL USE IT FOR THE DELETE OPERATION TOO.
 
-        internal Customers GetCustomerForEdit(string ID)
+        public Customers GetCustomerForEdit(string ID)
         {
             using (var connection = new SqlConnection(_connectionString))
             using (var command = connection.CreateCommand())
             {
                 command.CommandText = @"SELECT *
-                                    FROM CustomersTable WHERE ID = @ID";
+                                      FROM CustomersTable WHERE ID = @ID";
 
                 command.Parameters.AddWithValue("@ID", ID);
                 connection.Open();
@@ -69,10 +70,9 @@ namespace MVCCSharpProject.Models
             using (var command = connection.CreateCommand())
             {
                 command.CommandText = @"Update customersTable set CustomerName =@CustomerName,
-                                                                CustomerAddress=@CustomerAddress,
-                                                                CustomerPhone =@CustomerPhone
+                                             CustomerAddress=@CustomerAddress,
+                                             CustomerPhone =@CustomerPhone
                                       WHERE Id = @Id";
-
                 command.Parameters.AddWithValue("@Id", customer.Id);
                 command.Parameters.AddWithValue("@CustomerName", customer.CustomerName);
                 command.Parameters.AddWithValue("@CustomerAddress", customer.CustomerAddress);
@@ -81,6 +81,8 @@ namespace MVCCSharpProject.Models
                 command.ExecuteNonQuery();
             }
         }
+
+
 
         internal List<Customers> GetCustomerReport(string searchTerm)
         {
