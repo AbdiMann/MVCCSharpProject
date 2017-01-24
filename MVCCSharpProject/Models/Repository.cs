@@ -32,6 +32,31 @@ namespace MVCCSharpProject.Models
         }
 
 
+        public LoginForm Authenticate(string username, string password)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = @"SELECT *
+                                        FROM users
+                                        WHERE UserName =@UserName
+                                        and Password = @Password;
+                                       ";
+                command.Parameters.AddWithValue("@UserName", username);
+                command.Parameters.AddWithValue("@Password", password);
+                connection.Open();
+                var reader = command.ExecuteReader();
+                LoginForm user = null;
+                if (reader.Read())
+                {
+                    user = new LoginForm();
+                    user.UserName = reader["UserName"] as string;
+                    user.Password = reader["Password"] as string;
+                }
+                return user;
+            }
+        }
+
 
         // ADDED THIS CODE TO GET THE CUSTOMER SELECTED IN THE LIST AND WE WILL USE IT FOR THE DELETE OPERATION TOO.
 

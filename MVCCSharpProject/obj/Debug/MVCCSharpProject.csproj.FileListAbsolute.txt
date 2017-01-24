@@ -38,3 +38,43 @@ c:\users\abdimann\documents\visual studio 2015\Projects\MVCCSharpProject\MVCCSha
 c:\users\abdimann\documents\visual studio 2015\Projects\MVCCSharpProject\MVCCSharpProject\obj\Debug\MVCCSharpProject.csprojResolveAssemblyReference.cache
 c:\users\abdimann\documents\visual studio 2015\Projects\MVCCSharpProject\MVCCSharpProject\obj\Debug\MVCCSharpProject.dll
 c:\users\abdimann\documents\visual studio 2015\Projects\MVCCSharpProject\MVCCSharpProject\obj\Debug\MVCCSharpProject.pdb
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\csc.exe
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\System.Collections.Immutable.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\System.Reflection.Metadata.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\vbc.exe
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\VBCSCompiler.exe
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\roslyn\VBCSCompiler.exe.config
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\MVCCSharpProject.dll.config
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\MVCCSharpProject.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\MVCCSharpProject.pdb
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\Antlr3.Runtime.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\Microsoft.Web.Infrastructure.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\Newtonsoft.Json.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.Helpers.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.Mvc.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.Optimization.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.Razor.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.WebPages.Deployment.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.WebPages.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.WebPages.Razor.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\WebGrease.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.Helpers.xml
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.Mvc.xml
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.Optimization.xml
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.Razor.xml
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.WebPages.xml
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.WebPages.Deployment.xml
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\System.Web.WebPages.Razor.xml
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\Antlr3.Runtime.pdb
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\bin\Newtonsoft.Json.xml
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\obj\Debug\MVCCSharpProject.csprojResolveAssemblyReference.cache
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\obj\Debug\MVCCSharpProject.dll
+G:\Lectures\CsharpMVC\Projects\MVCCSharpProject\MVCCSharpProject\obj\Debug\MVCCSharpProject.pdb
