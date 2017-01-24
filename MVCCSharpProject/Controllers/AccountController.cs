@@ -19,7 +19,6 @@ namespace MVCCSharpProject.Controllers
         {
             return View();
         }
-
         [HttpPost]
         public ActionResult Login(LoginForm loginForm)
         {
