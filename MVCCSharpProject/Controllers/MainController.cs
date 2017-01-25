@@ -12,7 +12,7 @@ namespace MVCCSharpProject.Controllers
     public class MainController : Controller
     {
 
-        Repository _repository  = new Repository();
+        Repository _repository = new Repository();
 
 
         public ActionResult Create()
@@ -36,9 +36,10 @@ namespace MVCCSharpProject.Controllers
             return View(customers);
         }
 
-public ActionResult TestAction(){
-return View();
-}
+        public ActionResult TestAction()
+        {
+            return View();
+        }
 
 
 
@@ -67,6 +68,24 @@ return View();
                 TempData["Success"] = "Successfull Updated Customer";
             }
             return View();
+        }
+
+
+
+
+
+
+        public ActionResult Delete(string ID)
+        {
+            var customerInfo = _repository.GetCustomerForEdit(ID);
+            return View(customerInfo);
+        }
+        [HttpPost]
+        public ActionResult Delete(Customers customer)
+        {
+            _repository.DeleteCustomer(customer);
+            TempData["Success"] = "Successfull Deleted Customer";
+            return RedirectToAction("CustomersReport");
         }
     }
 }

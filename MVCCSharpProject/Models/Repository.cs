@@ -37,7 +37,7 @@ namespace MVCCSharpProject.Models
             using (var connection = new SqlConnection(_connectionString))
             using (var command = connection.CreateCommand())
             {
-                command.CommandText = @"SELECT *
+                 command.CommandText = @"SELECT *
                                         FROM users
                                         WHERE UserName =@UserName
                                         and Password = @Password;
@@ -108,6 +108,23 @@ namespace MVCCSharpProject.Models
         }
 
 
+
+
+        // Delete method/code
+
+        internal void DeleteCustomer(Customers customer)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = @"DELETE
+                                        FROM CUSTOMERSTABLE
+                                        WHERE ID = @Id";
+                command.Parameters.AddWithValue("@Id", customer.Id);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
 
         internal List<Customers> GetCustomerReport(string searchTerm)
         {
